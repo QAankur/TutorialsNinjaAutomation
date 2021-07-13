@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-12T23:58:58 IST" name="Default suite" finished-at="2021-07-12T23:59:07 IST" duration-ms="9643">
+  <suite started-at="2021-07-14T00:49:13 IST" name="Default suite" finished-at="2021-07-14T00:49:23 IST" duration-ms="10227">
     <groups>
     </groups>
-    <test started-at="2021-07-12T23:58:58 IST" name="Default test" finished-at="2021-07-12T23:59:07 IST" duration-ms="9643">
-      <class name="testcases.LoginTest">
-        <test-method signature="login()[pri:0, instance:testcases.LoginTest@31e5415e]" started-at="2021-07-12T23:58:58 IST" name="login" finished-at="2021-07-12T23:59:07 IST" duration-ms="9581" status="PASS">
+    <test started-at="2021-07-14T00:49:13 IST" name="Default test" finished-at="2021-07-14T00:49:23 IST" duration-ms="10227">
+      <class name="testcases.YourStoreTest">
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.YourStoreTest@62230c58]" started-at="2021-07-14T00:49:13 IST" name="getDriverInstance" finished-at="2021-07-14T00:49:16 IST" duration-ms="3166" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- testcases.LoginTest -->
+        </test-method> <!-- getDriverInstance -->
+        <test-method signature="verifyTitle()[pri:0, instance:testcases.YourStoreTest@62230c58]" started-at="2021-07-14T00:49:16 IST" name="verifyTitle" finished-at="2021-07-14T00:49:23 IST" duration-ms="6112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.YourStoreTest@62230c58]" started-at="2021-07-14T00:49:23 IST" name="closure" finished-at="2021-07-14T00:49:23 IST" duration-ms="902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- testcases.YourStoreTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

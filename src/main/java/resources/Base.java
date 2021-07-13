@@ -13,67 +13,61 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Base {
 
-	private static WebDriver driver;
-	private static Properties prop;
-	
-	public static Properties setUpProperties()
-	{
-		String path=System.getProperty("user.dir")+"\\src\\main\\java\\resources\\Data.properties";
-		try {	
-		FileInputStream fileInputStream=new FileInputStream(path);
-		prop=new Properties();
-		if(fileInputStream!=null)
-		{
-		prop.load(fileInputStream);
+	public WebDriver driver;
+	public Properties prop;
+
+	public void setUpProperties() {
+		String path = System.getProperty("user.dir") + "\\src\\main\\java\\resources\\Data.properties";
+		try {
+			FileInputStream fileInputStream = new FileInputStream(path);
+			prop = new Properties();
+			if (fileInputStream != null) {
+				prop.load(fileInputStream);
+			} else {
+				System.out.println("Properties file object is null");
+			}
+		} catch (Exception e) {
+
 		}
-		else
-		{
-			System.out.println("Properties file object is null");
-		}
-		}catch(Exception e)
-		{
-			
-		}
-		return prop;
-		
-		
+
 	}
-	
-	public static WebDriver setUpDriver() 
-	{
-		String browserName=setUpProperties().getProperty("browser");
-		if(browserName.equalsIgnoreCase("chrome"))
-		{
+
+	public void setUpDriver() {
+		String browserName = getPropertiesObject().getProperty("browser");
+		if (browserName.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
-			driver=new ChromeDriver();
-		}else if(browserName.equalsIgnoreCase("firefox"))
-		{
+			driver = new ChromeDriver();
+		} else if (browserName.equalsIgnoreCase("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
-			driver=new FirefoxDriver();
-		}else if (browserName.equalsIgnoreCase("ie"))
-		{
+			driver = new FirefoxDriver();
+		} else if (browserName.equalsIgnoreCase("ie")) {
 			WebDriverManager.iedriver().setup();
-			driver=new InternetExplorerDriver();
+			driver = new InternetExplorerDriver();
 		}
-		
+
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		return driver;
-		
-		
-		
-		
+
 	}
-	
-	/*public WebDriver getDriver()
-	{
-		return driver;
-		
-	}
-	
-	public Properties getPropertiesObject()
-	{
+
+	public Properties getPropertiesObject() {
+		setUpProperties();
 		return prop;
-		
-	}*/
+
+	}
+
+	public WebDriver getDriverObject() {
+		setUpDriver();
+		return driver;
+
+	}
+	/*
+	 * public WebDriver getDriver() { return driver;
+	 * 
+	 * }
+	 * 
+	 * public Properties getPropertiesObject() { return prop;
+	 * 
+	 * }
+	 */
 }
