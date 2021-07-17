@@ -5,7 +5,7 @@
     <classes>
       <class name="testcases.YourStoreTest">
         <methods>
-          <include name="verifyTitle"/>
+          <include name="verifyShoppingCart"/>
           <include name="getDriverInstance"/>
           <include name="closure"/>
         </methods>
