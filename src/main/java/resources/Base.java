@@ -13,8 +13,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Base {
 
-	public WebDriver driver;
-	public Properties prop;
+	private WebDriver driver;
+	private Properties prop;
 
 	public void setUpProperties() {
 		String path = System.getProperty("user.dir") + "\\src\\main\\java\\resources\\Data.properties";

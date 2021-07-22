@@ -32,6 +32,12 @@ public class YourStore {
 	@FindBy(xpath="//*[@id='content']/div[2]/div[1]/div/div[2]/h4/a")
 	private WebElement firstProductBtn;
 	
+	@FindBy(xpath="//span[normalize-space()='My Account']")
+	private WebElement myAccount;
+	
+	@FindBy(xpath="//a[normalize-space()='Login']")
+	private WebElement loginBtn;
+	
 
 	public String returnTitle() {
 		return pageTitle;
@@ -53,6 +59,15 @@ public class YourStore {
 	{
 		return firstProductBtn;
 	}
+	
+	public WebElement getMyAccountBtn()
+	{
+		return myAccount;
+	}
+	public WebElement getMyLoginBtn()
+	{
+		return loginBtn;
+	}
 	public YourStore clickOnAddToCart( ) throws InterruptedException
 	{
 		Thread.sleep(2000);
@@ -71,6 +86,17 @@ public class YourStore {
 	public String retrunFirstProductName()
 	{
 		return getFirstProductBtn().getText();
+	}
+	
+	public YourStore clickOnMyAccount()
+	{
+		myAccount.click();
+		return this;
+	}
+	public Login clickOnLogin()
+	{
+		loginBtn.click();
+		return new Login(driver);
 	}
 	
 	

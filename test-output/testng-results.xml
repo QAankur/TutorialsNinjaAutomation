@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-17T13:40:43 IST" name="Default suite" finished-at="2021-07-17T13:42:14 IST" duration-ms="90846">
+  <suite started-at="2021-07-23T01:01:11 IST" name="Default suite" finished-at="2021-07-23T01:01:25 IST" duration-ms="14385">
     <groups>
     </groups>
-    <test started-at="2021-07-17T13:40:43 IST" name="Default test" finished-at="2021-07-17T13:42:14 IST" duration-ms="90846">
-      <class name="testcases.YourStoreTest">
-        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.YourStoreTest@4efc180e]" started-at="2021-07-17T13:40:43 IST" name="getDriverInstance" finished-at="2021-07-17T13:41:37 IST" duration-ms="54065" status="PASS">
+    <test started-at="2021-07-23T01:01:11 IST" name="Default test" finished-at="2021-07-23T01:01:25 IST" duration-ms="14385">
+      <class name="testcases.MyAccountTest">
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.MyAccountTest@4e7912d8]" started-at="2021-07-23T01:01:11 IST" name="getDriverInstance" finished-at="2021-07-23T01:01:15 IST" duration-ms="3973" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriverInstance -->
-        <test-method signature="verifyShoppingCart()[pri:0, instance:testcases.YourStoreTest@4efc180e]" started-at="2021-07-17T13:41:37 IST" name="verifyShoppingCart" finished-at="2021-07-17T13:41:52 IST" duration-ms="14451" status="PASS">
+        <test-method signature="checkDesktopOptions()[pri:0, instance:testcases.MyAccountTest@4e7912d8]" started-at="2021-07-23T01:01:15 IST" name="checkDesktopOptions" finished-at="2021-07-23T01:01:25 IST" duration-ms="10221" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyShoppingCart -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.YourStoreTest@4efc180e]" started-at="2021-07-17T13:41:52 IST" name="closure" finished-at="2021-07-17T13:41:53 IST" duration-ms="1397" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closure -->
-        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.YourStoreTest@4efc180e]" started-at="2021-07-17T13:41:53 IST" name="getDriverInstance" finished-at="2021-07-17T13:42:03 IST" duration-ms="9756" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getDriverInstance -->
-        <test-method signature="verifyTitle()[pri:0, instance:testcases.YourStoreTest@4efc180e]" started-at="2021-07-17T13:42:03 IST" name="verifyTitle" finished-at="2021-07-17T13:42:11 IST" duration-ms="8120" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.YourStoreTest@4efc180e]" started-at="2021-07-17T13:42:11 IST" name="closure" finished-at="2021-07-17T13:42:14 IST" duration-ms="2986" status="PASS">
+        </test-method> <!-- checkDesktopOptions -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.MyAccountTest@4e7912d8]" started-at="2021-07-23T01:01:25 IST" name="closure" finished-at="2021-07-23T01:01:25 IST" duration-ms="121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
-      </class> <!-- testcases.YourStoreTest -->
+      </class> <!-- testcases.MyAccountTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
