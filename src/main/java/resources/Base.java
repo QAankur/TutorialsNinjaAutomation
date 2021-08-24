@@ -9,13 +9,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Base {
 
 	private WebDriver driver;
 	private Properties prop;
-
+	
 	public void setUpProperties() {
 		String path = System.getProperty("user.dir") + "\\src\\main\\java\\resources\\Data.properties";
 		try {
@@ -60,6 +63,19 @@ public class Base {
 		setUpDriver();
 		return driver;
 
+	}
+	
+	public ExtentReports getExtentReport()
+	{
+		String path=System.getProperty("user.dir")+"\\reports\\extentReport.html";
+		ExtentSparkReporter reporter=new ExtentSparkReporter(path);
+		reporter.config().setDocumentTitle("Test Automation report");
+		reporter.config().setReportName("TutorialsNinja.com");
+		ExtentReports extent=new ExtentReports();
+		extent.attachReporter(reporter);
+		extent.setSystemInfo("Operating System", path);
+		extent.setSystemInfo("Automation Script Developer", "Ankur Mishra");
+		return extent;
 	}
 	/*
 	 * public WebDriver getDriver() { return driver;
