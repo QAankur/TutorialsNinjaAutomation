@@ -38,10 +38,11 @@ public class LoginTest extends Base {
 	@Test
 	public void login() throws InterruptedException {
 
-		driver.get("http://tutorialsninja.com/demo/");
+		
+		driver.get(prop.getProperty("url"));
 		loginPage = yourStorePage.clickOnMyAccount().clickOnLogin();
-		loginPage.getEmailField().sendKeys("mishra.ankur671@gmail.com");
-		loginPage.getPwdField().sendKeys("Adipo@123");
+		loginPage.getEmailField().sendKeys(prop.getProperty("username"));
+		loginPage.getPwdField().sendKeys(prop.getProperty("password"));
 		myAccount = loginPage.clickOnLogin();
 		Assert.assertTrue(myAccount.verifyTitle(driver.getTitle()));
 		Assert.assertTrue(myAccount.getAccountElement().isDisplayed());

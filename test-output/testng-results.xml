@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-06T14:20:43 IST" name="Suite" finished-at="2021-08-06T14:21:05 IST" duration-ms="21523">
+  <suite started-at="2021-10-04T23:08:16 IST" name="Default suite" finished-at="2021-10-04T23:08:29 IST" duration-ms="13193">
     <groups>
     </groups>
-    <test started-at="2021-08-06T14:20:43 IST" name="Test" finished-at="2021-08-06T14:21:05 IST" duration-ms="21523">
-      <class name="testcases.YourStoreTest">
-        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.YourStoreTest@1bae316d]" started-at="2021-08-06T14:20:43 IST" name="getDriverInstance" finished-at="2021-08-06T14:20:47 IST" duration-ms="3796" status="PASS">
+    <test started-at="2021-10-04T23:08:16 IST" name="Default test" finished-at="2021-10-04T23:08:29 IST" duration-ms="13193">
+      <class name="testcases.RegistrationTest">
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.RegistrationTest@378542de]" started-at="2021-10-04T23:08:16 IST" name="getDriverInstance" finished-at="2021-10-04T23:08:19 IST" duration-ms="3204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriverInstance -->
-        <test-method signature="verifyShoppingCart()[pri:0, instance:testcases.YourStoreTest@1bae316d]" started-at="2021-08-06T14:20:47 IST" name="verifyShoppingCart" finished-at="2021-08-06T14:20:56 IST" duration-ms="9458" status="PASS">
+        <test-method signature="doUserRegistration()[pri:0, instance:testcases.RegistrationTest@378542de]" started-at="2021-10-04T23:08:19 IST" name="doUserRegistration" finished-at="2021-10-04T23:08:29 IST" duration-ms="9550" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyShoppingCart -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.YourStoreTest@1bae316d]" started-at="2021-08-06T14:20:57 IST" name="closure" finished-at="2021-08-06T14:20:57 IST" duration-ms="110" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closure -->
-        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.YourStoreTest@1bae316d]" started-at="2021-08-06T14:20:57 IST" name="getDriverInstance" finished-at="2021-08-06T14:20:59 IST" duration-ms="2352" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getDriverInstance -->
-        <test-method signature="verifyTitle()[pri:0, instance:testcases.YourStoreTest@1bae316d]" started-at="2021-08-06T14:20:59 IST" name="verifyTitle" finished-at="2021-08-06T14:21:04 IST" duration-ms="4185" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.YourStoreTest@1bae316d]" started-at="2021-08-06T14:21:05 IST" name="closure" finished-at="2021-08-06T14:21:05 IST" duration-ms="126" status="PASS">
+        </test-method> <!-- doUserRegistration -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.RegistrationTest@378542de]" started-at="2021-10-04T23:08:29 IST" name="closure" finished-at="2021-10-04T23:08:29 IST" duration-ms="377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
-      </class> <!-- testcases.YourStoreTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- testcases.RegistrationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

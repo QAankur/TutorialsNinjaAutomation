@@ -38,6 +38,9 @@ public class YourStore {
 	@FindBy(xpath="//a[normalize-space()='Login']")
 	private WebElement loginBtn;
 	
+	@FindBy(xpath="//a[normalize-space()='Register']") 
+	private WebElement RegBtn;
+	
 
 	public String returnTitle() {
 		return pageTitle;
@@ -97,6 +100,11 @@ public class YourStore {
 	{
 		loginBtn.click();
 		return new Login(driver);
+	}
+	public UserRegistration clickOnRegister()
+	{
+		RegBtn.click();
+		return new UserRegistration(driver);
 	}
 	
 	
