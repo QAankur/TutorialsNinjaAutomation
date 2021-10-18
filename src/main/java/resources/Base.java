@@ -11,6 +11,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -71,6 +72,7 @@ public class Base {
 		ExtentSparkReporter reporter=new ExtentSparkReporter(path);
 		reporter.config().setDocumentTitle("Test Automation report");
 		reporter.config().setReportName("TutorialsNinja.com");
+		reporter.config().setTheme(Theme.DARK);
 		ExtentReports extent=new ExtentReports();
 		extent.attachReporter(reporter);
 		extent.setSystemInfo("Operating System", path);
