@@ -1,6 +1,8 @@
 package resources;
 
 import java.io.FileInputStream;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -19,7 +21,7 @@ public class Base {
 
 	private WebDriver driver;
 	private Properties prop;
-	
+
 	public void setUpProperties() {
 		String path = System.getProperty("user.dir") + "\\src\\main\\java\\resources\\Data.properties";
 		try {
@@ -65,15 +67,15 @@ public class Base {
 		return driver;
 
 	}
-	
-	public ExtentReports getExtentReport()
-	{
-		String path=System.getProperty("user.dir")+"\\reports\\extentReport.html";
-		ExtentSparkReporter reporter=new ExtentSparkReporter(path);
+
+	public ExtentReports getExtentReport() {
+		String timestamp = new SimpleDateFormat("yyyy_MM_dd__hh_mm_ss").format(new Date());
+		String path = System.getProperty("user.dir") + "\\reports\\extentReport" +timestamp + ".html";
+		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 		reporter.config().setDocumentTitle("Test Automation report");
 		reporter.config().setReportName("TutorialsNinja.com");
 		reporter.config().setTheme(Theme.DARK);
-		ExtentReports extent=new ExtentReports();
+		ExtentReports extent = new ExtentReports();
 		extent.attachReporter(reporter);
 		extent.setSystemInfo("Operating System", path);
 		extent.setSystemInfo("Automation Script Developer", "Ankur Mishra");

@@ -33,7 +33,9 @@ public class MyAccount {
 	
 	public boolean verifyTitle(String title)
 	{
-		return title.equals(title);
+		boolean b=this.title.equals(title);
+		//System.out.println(b);
+		return b;
 	}
 	
 	public WebElement getDesktopButton()

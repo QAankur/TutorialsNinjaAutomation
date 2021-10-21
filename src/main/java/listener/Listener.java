@@ -5,13 +5,13 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+import resources.Base;
+import utilities.TakeScreenShot;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
-import resources.Base;
-import utilities.ExtentReporting;
-import utilities.TakeScreenShot;
+
 
 public class Listener extends Base implements ITestListener {
 
@@ -27,7 +27,7 @@ public class Listener extends Base implements ITestListener {
 	@Override
 	public void onTestSuccess(ITestResult result) {
 
-		String testname=result.getName();
+		//String testname=result.getName();
 		WebDriver driver = null;
 		try {
 			driver = (WebDriver) result.getTestClass().getRealClass().getDeclaredField("driver").get(result.getInstance());
@@ -45,14 +45,34 @@ public class Listener extends Base implements ITestListener {
 			e.printStackTrace();
 		}
 		extentTest.log(Status.PASS, result.getName() + "is succeessfully passed");
-		String path=TakeScreenShot.getScreenShot(testname,driver);
-		System.out.print(path);
-		extentTest.pass("Test is pass" + extentTest.addScreenCaptureFromPath(path));
+		//String path=TakeScreenShot.getScreenShot(testname,driver);
+		//System.out.print("Suceess" + path);
+		//extentTest.pass("Test is pass" + extentTest.addScreenCaptureFromPath(path));
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
+		
+		String testname=result.getName();
+		WebDriver driver = null;
+		try {
+			driver = (WebDriver) result.getTestClass().getRealClass().getDeclaredField("driver").get(result.getInstance());
+		} catch (IllegalArgumentException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IllegalAccessException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (NoSuchFieldException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SecurityException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		extentTest.log(Status.FAIL, result.getName() + "is failed");
+		String path=TakeScreenShot.getScreenShot(testname,driver);
+		extentTest.pass("Test is pass" + extentTest.addScreenCaptureFromPath(path));
 
 	}
 

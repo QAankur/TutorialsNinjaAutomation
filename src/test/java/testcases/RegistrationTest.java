@@ -9,7 +9,9 @@ import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.util.NumberToTextConverter;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -23,8 +25,8 @@ import utilities.DataProviderUtility;
 
 public class RegistrationTest extends Base {
 
-	WebDriver driver;
-	Properties prop;
+	public WebDriver driver;
+	public Properties prop;
 	YourStore yourStorePage;
 	UserRegistration registration;
 	
@@ -39,8 +41,7 @@ public class RegistrationTest extends Base {
 	@Test(dataProvider="data")
 	public void doUserRegistration(String fname, String lname, String email, String phone, String pwd, String conPwd) throws InterruptedException
 	{
-		
-		driver.get("http://tutorialsninja.com/demo/");
+		driver.get(prop.getProperty("url"));
 		registration=yourStorePage.clickOnMyAccount().clickOnRegister();
 		registration.getFirstName().sendKeys(fname);
 		registration.getlastName().sendKeys(lname);
@@ -51,6 +52,9 @@ public class RegistrationTest extends Base {
 		registration.getPrivacyBtn().click();
 		Thread.sleep(5000);
 		registration.clickOnContinue();
+		String s=driver.findElement(By.xpath("//h1[contains(text(),'Your Account Has Been Created!')]")).getText();
+		//Assert.assertEquals(s,"Your Account Has Been Created!");
+		//Thread.sleep(5000);
 	}
 	
 	@AfterMethod

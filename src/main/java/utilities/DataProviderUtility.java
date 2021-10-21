@@ -31,12 +31,15 @@ public class DataProviderUtility {
 		int noofrows = sheet.getPhysicalNumberOfRows();
 		int noofcols = sheet.getRow(0).getPhysicalNumberOfCells();
 		Object[][] object = new Object[noofrows - 1][noofcols];
+		System.out.println("no pf rows" + noofrows);
 		for (int i = 0; i < noofrows - 1; i++) {
 			for (int j = 0; j < noofcols; j++) {
 				if (sheet.getRow(i + 1).getCell(j).getCellType() == CellType.STRING) {
 					object[i][j] = sheet.getRow(i + 1).getCell(j).getStringCellValue();
+					//System.out.println(object[i][j]);
 				} else if (sheet.getRow(i + 1).getCell(j).getCellType() == CellType.NUMERIC) {
 					object[i][j] = NumberToTextConverter.toText(sheet.getRow(i + 1).getCell(j).getNumericCellValue());
+					//System.out.println(object[i][j]);
 				}
 			}
 			System.out.println(" ");

@@ -1,75 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-18T22:59:39 IST" name="Suite" finished-at="2021-10-18T23:00:58 IST" duration-ms="79020">
+  <suite started-at="2021-10-22T01:47:39 IST" name="Suite" finished-at="2021-10-22T01:48:56 IST" duration-ms="77622">
     <groups>
     </groups>
-    <test started-at="2021-10-18T22:59:39 IST" name="Test" finished-at="2021-10-18T23:00:58 IST" duration-ms="79020">
+    <test started-at="2021-10-22T01:47:39 IST" name="Test" finished-at="2021-10-22T01:48:56 IST" duration-ms="77622">
       <class name="testcases.YourStoreTest">
-        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.YourStoreTest@53251a66]" started-at="2021-10-18T23:00:17 IST" name="getDriverInstance" finished-at="2021-10-18T23:00:20 IST" duration-ms="2286" status="PASS">
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.YourStoreTest@7d898981]" started-at="2021-10-22T01:47:55 IST" name="getDriverInstance" finished-at="2021-10-22T01:47:56 IST" duration-ms="1649" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriverInstance -->
-        <test-method signature="verifyShoppingCart()[pri:0, instance:testcases.YourStoreTest@53251a66]" started-at="2021-10-18T23:00:20 IST" name="verifyShoppingCart" finished-at="2021-10-18T23:00:32 IST" duration-ms="12363" status="PASS">
+        <test-method signature="verifyShoppingCart()[pri:0, instance:testcases.YourStoreTest@7d898981]" started-at="2021-10-22T01:47:56 IST" name="verifyShoppingCart" finished-at="2021-10-22T01:48:05 IST" duration-ms="8462" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyShoppingCart -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.YourStoreTest@53251a66]" started-at="2021-10-18T23:00:32 IST" name="closure" finished-at="2021-10-18T23:00:33 IST" duration-ms="232" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.YourStoreTest@7d898981]" started-at="2021-10-22T01:48:05 IST" name="closure" finished-at="2021-10-22T01:48:05 IST" duration-ms="561" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
-        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.YourStoreTest@53251a66]" started-at="2021-10-18T23:00:33 IST" name="getDriverInstance" finished-at="2021-10-18T23:00:35 IST" duration-ms="2101" status="PASS">
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.YourStoreTest@7d898981]" started-at="2021-10-22T01:48:05 IST" name="getDriverInstance" finished-at="2021-10-22T01:48:07 IST" duration-ms="1711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriverInstance -->
-        <test-method signature="verifyTitle()[pri:0, instance:testcases.YourStoreTest@53251a66]" started-at="2021-10-18T23:00:35 IST" name="verifyTitle" finished-at="2021-10-18T23:00:38 IST" duration-ms="3561" status="PASS">
+        <test-method signature="verifyTitle()[pri:0, instance:testcases.YourStoreTest@7d898981]" started-at="2021-10-22T01:48:07 IST" name="verifyTitle" finished-at="2021-10-22T01:48:10 IST" duration-ms="3244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.YourStoreTest@53251a66]" started-at="2021-10-18T23:00:39 IST" name="closure" finished-at="2021-10-18T23:00:39 IST" duration-ms="257" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.YourStoreTest@7d898981]" started-at="2021-10-22T01:48:10 IST" name="closure" finished-at="2021-10-22T01:48:11 IST" duration-ms="137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
       </class> <!-- testcases.YourStoreTest -->
       <class name="testcases.MyAccountTest">
-        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.MyAccountTest@63eef88a]" started-at="2021-10-18T23:00:04 IST" name="getDriverInstance" finished-at="2021-10-18T23:00:06 IST" duration-ms="2148" status="PASS">
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.MyAccountTest@282cb7c7]" started-at="2021-10-22T01:47:48 IST" name="getDriverInstance" finished-at="2021-10-22T01:47:50 IST" duration-ms="1621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriverInstance -->
-        <test-method signature="clickDesktopOptions()[pri:0, instance:testcases.MyAccountTest@63eef88a]" started-at="2021-10-18T23:00:06 IST" name="clickDesktopOptions" finished-at="2021-10-18T23:00:17 IST" duration-ms="10960" status="PASS">
+        <test-method signature="clickDesktopOptions()[pri:0, instance:testcases.MyAccountTest@282cb7c7]" started-at="2021-10-22T01:47:50 IST" name="clickDesktopOptions" finished-at="2021-10-22T01:47:55 IST" duration-ms="4638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickDesktopOptions -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.MyAccountTest@63eef88a]" started-at="2021-10-18T23:00:17 IST" name="closure" finished-at="2021-10-18T23:00:17 IST" duration-ms="80" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.MyAccountTest@282cb7c7]" started-at="2021-10-22T01:47:55 IST" name="closure" finished-at="2021-10-22T01:47:55 IST" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
       </class> <!-- testcases.MyAccountTest -->
       <class name="testcases.LoginTest">
-        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.LoginTest@6057aebb]" started-at="2021-10-18T22:59:39 IST" name="getDriverInstance" finished-at="2021-10-18T22:59:50 IST" duration-ms="11086" status="PASS">
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.LoginTest@5a9f4771]" started-at="2021-10-22T01:47:39 IST" name="getDriverInstance" finished-at="2021-10-22T01:47:44 IST" duration-ms="5611" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriverInstance -->
-        <test-method signature="login()[pri:0, instance:testcases.LoginTest@6057aebb]" started-at="2021-10-18T22:59:50 IST" name="login" finished-at="2021-10-18T23:00:01 IST" duration-ms="11082" status="PASS">
+        <test-method signature="login()[pri:0, instance:testcases.LoginTest@5a9f4771]" started-at="2021-10-22T01:47:44 IST" name="login" finished-at="2021-10-22T01:47:48 IST" duration-ms="3886" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.LoginTest@6057aebb]" started-at="2021-10-18T23:00:02 IST" name="closure" finished-at="2021-10-18T23:00:04 IST" duration-ms="1657" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.LoginTest@5a9f4771]" started-at="2021-10-22T01:47:48 IST" name="closure" finished-at="2021-10-22T01:47:48 IST" duration-ms="269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
       </class> <!-- testcases.LoginTest -->
       <class name="testcases.RegistrationTest">
-        <test-method signature="doUserRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RegistrationTest@6853425f]" started-at="2021-10-18T23:00:39 IST" name="doUserRegistration" data-provider="data" finished-at="2021-10-18T23:00:58 IST" duration-ms="18634" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.RegistrationTest@48d61b48]" started-at="2021-10-22T01:48:12 IST" name="getDriverInstance" finished-at="2021-10-22T01:48:13 IST" duration-ms="1570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriverInstance -->
+        <test-method signature="doUserRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RegistrationTest@48d61b48]" started-at="2021-10-22T01:48:13 IST" name="doUserRegistration" data-provider="data" finished-at="2021-10-22T01:48:33 IST" duration-ms="19784" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prem]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mishra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Prem@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2234456567]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[prem123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[prem123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(text(),'Your Account Has Been Created!')]"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MFJ8Q0NV', ip: '192.168.0.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\Anuj\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62644}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f1139a2f65843ac238d27dd808aeac6
+*** Element info: {Using=xpath, value=//h1[contains(text(),'Your Account Has Been Created!')]}]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at utilities.TakeScreenShot.getScreenShot(TakeScreenShot.java:18)
-at listener.Listener.onTestSuccess(Listener.java:48)
-at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:100)
-at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:220)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:657)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(text(),'Your Account Has Been Created!')]"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MFJ8Q0NV', ip: '192.168.0.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\Anuj\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62644}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f1139a2f65843ac238d27dd808aeac6
+*** Element info: {Using=xpath, value=//h1[contains(text(),'Your Account Has Been Created!')]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at testcases.RegistrationTest.doUserRegistration(RegistrationTest.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
@@ -94,14 +165,126 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doUserRegistration -->
-        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.RegistrationTest@6853425f]" started-at="2021-10-18T23:00:44 IST" name="getDriverInstance" finished-at="2021-10-18T23:00:46 IST" duration-ms="1998" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.RegistrationTest@48d61b48]" started-at="2021-10-22T01:48:33 IST" name="closure" finished-at="2021-10-22T01:48:33 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.RegistrationTest@48d61b48]" started-at="2021-10-22T01:48:33 IST" name="getDriverInstance" finished-at="2021-10-22T01:48:36 IST" duration-ms="2403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriverInstance -->
+        <test-method signature="doUserRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RegistrationTest@48d61b48]" started-at="2021-10-22T01:48:36 IST" name="doUserRegistration" data-provider="data" finished-at="2021-10-22T01:48:56 IST" duration-ms="20279" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mishra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ram123ranm@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[352456565]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[raman123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[raman123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(text(),'Your Account Has Been Created!')]"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MFJ8Q0NV', ip: '192.168.0.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\Anuj\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63068}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 050e86a39c87fc4d6e75fd601da44300
+*** Element info: {Using=xpath, value=//h1[contains(text(),'Your Account Has Been Created!')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(text(),'Your Account Has Been Created!')]"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MFJ8Q0NV', ip: '192.168.0.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\Anuj\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63068}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 050e86a39c87fc4d6e75fd601da44300
+*** Element info: {Using=xpath, value=//h1[contains(text(),'Your Account Has Been Created!')]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at testcases.RegistrationTest.doUserRegistration(RegistrationTest.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserRegistration -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.RegistrationTest@48d61b48]" started-at="2021-10-22T01:48:56 IST" name="closure" finished-at="2021-10-22T01:48:56 IST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
       </class> <!-- testcases.RegistrationTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

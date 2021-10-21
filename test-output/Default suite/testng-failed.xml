@@ -7,7 +7,7 @@
         <methods>
           <include name="getDriverInstance"/>
           <include name="closure"/>
-          <include name="doUserRegistration"/>
+          <include name="doUserRegistration" invocation-numbers="0"/>
         </methods>
       </class> <!-- testcases.RegistrationTest -->
     </classes>
