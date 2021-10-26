@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.util.Properties;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -27,22 +29,26 @@ public class LoginTest extends Base {
 	YourStore yourStorePage;
 	Login loginPage;
 	MyAccount myAccount;
-
+	Logger log;
 	@BeforeMethod
 	public void getDriverInstance() {
 		driver = getDriverObject();
 		prop = getPropertiesObject();
 		yourStorePage = new YourStore(driver);
+		log = LogManager.getLogger(LoginTest.class.getName());
 	}
 
 	@Test
 	public void login() throws InterruptedException {
 
-		
+		log.info("loaded url");
 		driver.get(prop.getProperty("url"));
+		log.info("Oepning login popup");
 		loginPage = yourStorePage.clickOnMyAccount().clickOnLogin();
+		log.info("Entering username and password");
 		loginPage.getEmailField().sendKeys(prop.getProperty("username"));
 		loginPage.getPwdField().sendKeys(prop.getProperty("password"));
+		log.info("click on login");
 		myAccount = loginPage.clickOnLogin();
 		Assert.assertTrue(myAccount.verifyTitle(driver.getTitle()));
 		Assert.assertTrue(myAccount.getAccountElement().isDisplayed());

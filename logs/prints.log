@@ -1,0 +1,7 @@
+23:31:23.429 [main] INFO  testcases.LoginTest - Oepning login popup
+23:31:24.061 [main] INFO  testcases.LoginTest - Entering username and password
+23:31:24.385 [main] INFO  testcases.LoginTest - click on login
+23:31:27.612 [main] INFO  testcases.LoginTest - loaded url
+23:31:30.396 [main] INFO  testcases.LoginTest - Oepning login popup
+23:31:30.773 [main] INFO  testcases.LoginTest - Entering username and password
+23:31:31.103 [main] INFO  testcases.LoginTest - clicking on login

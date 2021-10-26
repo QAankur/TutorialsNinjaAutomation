@@ -2,70 +2,70 @@
 <testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-22T01:47:39 IST" name="Suite" finished-at="2021-10-22T01:48:56 IST" duration-ms="77622">
+  <suite started-at="2021-10-26T23:31:12 IST" name="Suite" finished-at="2021-10-26T23:32:41 IST" duration-ms="88595">
     <groups>
     </groups>
-    <test started-at="2021-10-22T01:47:39 IST" name="Test" finished-at="2021-10-22T01:48:56 IST" duration-ms="77622">
+    <test started-at="2021-10-26T23:31:12 IST" name="Test" finished-at="2021-10-26T23:32:41 IST" duration-ms="88595">
       <class name="testcases.YourStoreTest">
-        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.YourStoreTest@7d898981]" started-at="2021-10-22T01:47:55 IST" name="getDriverInstance" finished-at="2021-10-22T01:47:56 IST" duration-ms="1649" status="PASS">
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.YourStoreTest@14f9390f]" started-at="2021-10-26T23:31:32 IST" name="getDriverInstance" finished-at="2021-10-26T23:31:34 IST" duration-ms="1954" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriverInstance -->
-        <test-method signature="verifyShoppingCart()[pri:0, instance:testcases.YourStoreTest@7d898981]" started-at="2021-10-22T01:47:56 IST" name="verifyShoppingCart" finished-at="2021-10-22T01:48:05 IST" duration-ms="8462" status="PASS">
+        <test-method signature="verifyShoppingCart()[pri:0, instance:testcases.YourStoreTest@14f9390f]" started-at="2021-10-26T23:31:34 IST" name="verifyShoppingCart" finished-at="2021-10-26T23:31:43 IST" duration-ms="9061" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyShoppingCart -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.YourStoreTest@7d898981]" started-at="2021-10-22T01:48:05 IST" name="closure" finished-at="2021-10-22T01:48:05 IST" duration-ms="561" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.YourStoreTest@14f9390f]" started-at="2021-10-26T23:31:43 IST" name="closure" finished-at="2021-10-26T23:31:47 IST" duration-ms="4141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
-        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.YourStoreTest@7d898981]" started-at="2021-10-22T01:48:05 IST" name="getDriverInstance" finished-at="2021-10-22T01:48:07 IST" duration-ms="1711" status="PASS">
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.YourStoreTest@14f9390f]" started-at="2021-10-26T23:31:47 IST" name="getDriverInstance" finished-at="2021-10-26T23:31:49 IST" duration-ms="2251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriverInstance -->
-        <test-method signature="verifyTitle()[pri:0, instance:testcases.YourStoreTest@7d898981]" started-at="2021-10-22T01:48:07 IST" name="verifyTitle" finished-at="2021-10-22T01:48:10 IST" duration-ms="3244" status="PASS">
+        <test-method signature="verifyTitle()[pri:0, instance:testcases.YourStoreTest@14f9390f]" started-at="2021-10-26T23:31:49 IST" name="verifyTitle" finished-at="2021-10-26T23:31:52 IST" duration-ms="2607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.YourStoreTest@7d898981]" started-at="2021-10-22T01:48:10 IST" name="closure" finished-at="2021-10-22T01:48:11 IST" duration-ms="137" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.YourStoreTest@14f9390f]" started-at="2021-10-26T23:31:52 IST" name="closure" finished-at="2021-10-26T23:31:52 IST" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
       </class> <!-- testcases.YourStoreTest -->
       <class name="testcases.MyAccountTest">
-        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.MyAccountTest@282cb7c7]" started-at="2021-10-22T01:47:48 IST" name="getDriverInstance" finished-at="2021-10-22T01:47:50 IST" duration-ms="1621" status="PASS">
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.MyAccountTest@258d79be]" started-at="2021-10-26T23:31:24 IST" name="getDriverInstance" finished-at="2021-10-26T23:31:27 IST" duration-ms="2655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriverInstance -->
-        <test-method signature="clickDesktopOptions()[pri:0, instance:testcases.MyAccountTest@282cb7c7]" started-at="2021-10-22T01:47:50 IST" name="clickDesktopOptions" finished-at="2021-10-22T01:47:55 IST" duration-ms="4638" status="PASS">
+        <test-method signature="clickDesktopOptions()[pri:0, instance:testcases.MyAccountTest@258d79be]" started-at="2021-10-26T23:31:27 IST" name="clickDesktopOptions" finished-at="2021-10-26T23:31:32 IST" duration-ms="4844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickDesktopOptions -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.MyAccountTest@282cb7c7]" started-at="2021-10-22T01:47:55 IST" name="closure" finished-at="2021-10-22T01:47:55 IST" duration-ms="90" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.MyAccountTest@258d79be]" started-at="2021-10-26T23:31:32 IST" name="closure" finished-at="2021-10-26T23:31:32 IST" duration-ms="82" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
       </class> <!-- testcases.MyAccountTest -->
       <class name="testcases.LoginTest">
-        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.LoginTest@5a9f4771]" started-at="2021-10-22T01:47:39 IST" name="getDriverInstance" finished-at="2021-10-22T01:47:44 IST" duration-ms="5611" status="PASS">
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.LoginTest@68d279ec]" started-at="2021-10-26T23:31:13 IST" name="getDriverInstance" finished-at="2021-10-26T23:31:17 IST" duration-ms="4863" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriverInstance -->
-        <test-method signature="login()[pri:0, instance:testcases.LoginTest@5a9f4771]" started-at="2021-10-22T01:47:44 IST" name="login" finished-at="2021-10-22T01:47:48 IST" duration-ms="3886" status="PASS">
+        <test-method signature="login()[pri:0, instance:testcases.LoginTest@68d279ec]" started-at="2021-10-26T23:31:17 IST" name="login" finished-at="2021-10-26T23:31:24 IST" duration-ms="6968" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.LoginTest@5a9f4771]" started-at="2021-10-22T01:47:48 IST" name="closure" finished-at="2021-10-22T01:47:48 IST" duration-ms="269" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.LoginTest@68d279ec]" started-at="2021-10-26T23:31:24 IST" name="closure" finished-at="2021-10-26T23:31:24 IST" duration-ms="108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
       </class> <!-- testcases.LoginTest -->
       <class name="testcases.RegistrationTest">
-        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.RegistrationTest@48d61b48]" started-at="2021-10-22T01:48:12 IST" name="getDriverInstance" finished-at="2021-10-22T01:48:13 IST" duration-ms="1570" status="PASS">
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.RegistrationTest@6c0d7c83]" started-at="2021-10-26T23:31:54 IST" name="getDriverInstance" finished-at="2021-10-26T23:31:57 IST" duration-ms="2084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriverInstance -->
-        <test-method signature="doUserRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RegistrationTest@48d61b48]" started-at="2021-10-22T01:48:13 IST" name="doUserRegistration" data-provider="data" finished-at="2021-10-22T01:48:33 IST" duration-ms="19784" status="FAIL">
+        <test-method signature="doUserRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RegistrationTest@6c0d7c83]" started-at="2021-10-26T23:31:57 IST" name="doUserRegistration" data-provider="data" finished-at="2021-10-26T23:32:17 IST" duration-ms="20659" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -101,24 +101,24 @@
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(text(),'Your Account Has Been Created!')]"}
-  (Session info: chrome=94.0.4606.81)
+  (Session info: chrome=95.0.4638.54)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-MFJ8Q0NV', ip: '192.168.0.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\Anuj\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62644}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9f1139a2f65843ac238d27dd808aeac6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\Anuj\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d14cc4cc674d258af6053bbf4c55a74
 *** Element info: {Using=xpath, value=//h1[contains(text(),'Your Account Has Been Created!')]}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(text(),'Your Account Has Been Created!')]"}
-  (Session info: chrome=94.0.4606.81)
+  (Session info: chrome=95.0.4638.54)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-MFJ8Q0NV', ip: '192.168.0.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\Anuj\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62644}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9f1139a2f65843ac238d27dd808aeac6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\Anuj\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d14cc4cc674d258af6053bbf4c55a74
 *** Element info: {Using=xpath, value=//h1[contains(text(),'Your Account Has Been Created!')]}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -169,15 +169,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doUserRegistration -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.RegistrationTest@48d61b48]" started-at="2021-10-22T01:48:33 IST" name="closure" finished-at="2021-10-22T01:48:33 IST" duration-ms="79" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.RegistrationTest@6c0d7c83]" started-at="2021-10-26T23:32:18 IST" name="closure" finished-at="2021-10-26T23:32:18 IST" duration-ms="119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
-        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.RegistrationTest@48d61b48]" started-at="2021-10-22T01:48:33 IST" name="getDriverInstance" finished-at="2021-10-22T01:48:36 IST" duration-ms="2403" status="PASS">
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.RegistrationTest@6c0d7c83]" started-at="2021-10-26T23:32:18 IST" name="getDriverInstance" finished-at="2021-10-26T23:32:21 IST" duration-ms="3140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriverInstance -->
-        <test-method signature="doUserRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RegistrationTest@48d61b48]" started-at="2021-10-22T01:48:36 IST" name="doUserRegistration" data-provider="data" finished-at="2021-10-22T01:48:56 IST" duration-ms="20279" status="FAIL">
+        <test-method signature="doUserRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RegistrationTest@6c0d7c83]" started-at="2021-10-26T23:32:21 IST" name="doUserRegistration" data-provider="data" finished-at="2021-10-26T23:32:41 IST" duration-ms="19783" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -213,24 +213,24 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(text(),'Your Account Has Been Created!')]"}
-  (Session info: chrome=94.0.4606.81)
+  (Session info: chrome=95.0.4638.54)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-MFJ8Q0NV', ip: '192.168.0.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\Anuj\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63068}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 050e86a39c87fc4d6e75fd601da44300
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\Anuj\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63168}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 719f62bb1343518210799a2ecd28032e
 *** Element info: {Using=xpath, value=//h1[contains(text(),'Your Account Has Been Created!')]}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(text(),'Your Account Has Been Created!')]"}
-  (Session info: chrome=94.0.4606.81)
+  (Session info: chrome=95.0.4638.54)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-MFJ8Q0NV', ip: '192.168.0.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\Anuj\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63068}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 050e86a39c87fc4d6e75fd601da44300
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\Anuj\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63168}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 719f62bb1343518210799a2ecd28032e
 *** Element info: {Using=xpath, value=//h1[contains(text(),'Your Account Has Been Created!')]}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -281,7 +281,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doUserRegistration -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.RegistrationTest@48d61b48]" started-at="2021-10-22T01:48:56 IST" name="closure" finished-at="2021-10-22T01:48:56 IST" duration-ms="72" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.RegistrationTest@6c0d7c83]" started-at="2021-10-26T23:32:41 IST" name="closure" finished-at="2021-10-26T23:32:41 IST" duration-ms="108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->

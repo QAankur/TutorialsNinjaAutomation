@@ -2,6 +2,8 @@ package testcases;
 
 import java.util.Properties;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -19,6 +21,7 @@ public class MyAccountTest extends Base{
 	YourStore yourStorePage;
 	Login loginPage;
 	MyAccount myAccount;
+	Logger log;
 
 	@BeforeMethod
 	public void getDriverInstance() {
@@ -26,25 +29,28 @@ public class MyAccountTest extends Base{
 		prop = getPropertiesObject();
 		yourStorePage=new YourStore(driver);
 		myAccount=new MyAccount(driver);
+		log=LogManager.getLogger(LoginTest.class.getName());
 	}
 	
 	@Test
 	public void clickDesktopOptions()
 	{
-		driver.get("http://tutorialsninja.com/demo/");
+		log.info("loaded url");
+		driver.get(prop.getProperty("url"));
+		log.info("Oepning login popup");
 		loginPage = yourStorePage.clickOnMyAccount().clickOnLogin();
-		loginPage.getEmailField().sendKeys("mishra.ankur671@gmail.com");
-		loginPage.getPwdField().sendKeys("Adipo@123");
+		log.info("Entering username and password");
+		loginPage.getEmailField().sendKeys(prop.getProperty("username"));
+		loginPage.getPwdField().sendKeys(prop.getProperty("password"));
 		try {
+			log.info("clicking on login");
 			myAccount = loginPage.clickOnLogin();
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		try {
 			myAccount.moveToDesktopAndSelectAllDesktop().verifyTitle(driver.getTitle());
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
