@@ -1,71 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+<testng-results ignored="0" total="10" passed="8" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-26T23:31:12 IST" name="Suite" finished-at="2021-10-26T23:32:41 IST" duration-ms="88595">
+  <suite started-at="2021-10-29T19:25:13 IST" name="Suite" finished-at="2021-10-29T19:26:55 IST" duration-ms="102332">
     <groups>
     </groups>
-    <test started-at="2021-10-26T23:31:12 IST" name="Test" finished-at="2021-10-26T23:32:41 IST" duration-ms="88595">
+    <test started-at="2021-10-29T19:25:13 IST" name="Test" finished-at="2021-10-29T19:26:55 IST" duration-ms="102332">
       <class name="testcases.YourStoreTest">
-        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.YourStoreTest@14f9390f]" started-at="2021-10-26T23:31:32 IST" name="getDriverInstance" finished-at="2021-10-26T23:31:34 IST" duration-ms="1954" status="PASS">
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.YourStoreTest@3eb77ea8]" started-at="2021-10-29T19:25:33 IST" name="getDriverInstance" finished-at="2021-10-29T19:25:35 IST" duration-ms="1824" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriverInstance -->
-        <test-method signature="verifyShoppingCart()[pri:0, instance:testcases.YourStoreTest@14f9390f]" started-at="2021-10-26T23:31:34 IST" name="verifyShoppingCart" finished-at="2021-10-26T23:31:43 IST" duration-ms="9061" status="PASS">
+        <test-method signature="verifyShoppingCart()[pri:0, instance:testcases.YourStoreTest@3eb77ea8]" started-at="2021-10-29T19:25:35 IST" name="verifyShoppingCart" finished-at="2021-10-29T19:25:44 IST" duration-ms="8898" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyShoppingCart -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.YourStoreTest@14f9390f]" started-at="2021-10-26T23:31:43 IST" name="closure" finished-at="2021-10-26T23:31:47 IST" duration-ms="4141" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.YourStoreTest@3eb77ea8]" started-at="2021-10-29T19:25:44 IST" name="closure" finished-at="2021-10-29T19:25:44 IST" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
-        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.YourStoreTest@14f9390f]" started-at="2021-10-26T23:31:47 IST" name="getDriverInstance" finished-at="2021-10-26T23:31:49 IST" duration-ms="2251" status="PASS">
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.YourStoreTest@3eb77ea8]" started-at="2021-10-29T19:25:44 IST" name="getDriverInstance" finished-at="2021-10-29T19:25:46 IST" duration-ms="1766" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriverInstance -->
-        <test-method signature="verifyTitle()[pri:0, instance:testcases.YourStoreTest@14f9390f]" started-at="2021-10-26T23:31:49 IST" name="verifyTitle" finished-at="2021-10-26T23:31:52 IST" duration-ms="2607" status="PASS">
+        <test-method signature="verifyTitle()[pri:0, instance:testcases.YourStoreTest@3eb77ea8]" started-at="2021-10-29T19:25:46 IST" name="verifyTitle" finished-at="2021-10-29T19:25:48 IST" duration-ms="2411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.YourStoreTest@14f9390f]" started-at="2021-10-26T23:31:52 IST" name="closure" finished-at="2021-10-26T23:31:52 IST" duration-ms="90" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.YourStoreTest@3eb77ea8]" started-at="2021-10-29T19:25:48 IST" name="closure" finished-at="2021-10-29T19:25:48 IST" duration-ms="362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
       </class> <!-- testcases.YourStoreTest -->
       <class name="testcases.MyAccountTest">
-        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.MyAccountTest@258d79be]" started-at="2021-10-26T23:31:24 IST" name="getDriverInstance" finished-at="2021-10-26T23:31:27 IST" duration-ms="2655" status="PASS">
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.MyAccountTest@7d286fb6]" started-at="2021-10-29T19:25:20 IST" name="getDriverInstance" finished-at="2021-10-29T19:25:26 IST" duration-ms="5816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriverInstance -->
-        <test-method signature="clickDesktopOptions()[pri:0, instance:testcases.MyAccountTest@258d79be]" started-at="2021-10-26T23:31:27 IST" name="clickDesktopOptions" finished-at="2021-10-26T23:31:32 IST" duration-ms="4844" status="PASS">
+        <test-method signature="clickDesktopOptions()[pri:0, instance:testcases.MyAccountTest@7d286fb6]" started-at="2021-10-29T19:25:26 IST" name="clickDesktopOptions" finished-at="2021-10-29T19:25:27 IST" duration-ms="715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickDesktopOptions -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.MyAccountTest@258d79be]" started-at="2021-10-26T23:31:32 IST" name="closure" finished-at="2021-10-26T23:31:32 IST" duration-ms="82" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.MyAccountTest@7d286fb6]" started-at="2021-10-29T19:25:27 IST" name="closure" finished-at="2021-10-29T19:25:27 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.MyAccountTest@7d286fb6]" started-at="2021-10-29T19:25:27 IST" name="getDriverInstance" finished-at="2021-10-29T19:25:33 IST" duration-ms="5912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriverInstance -->
+        <test-method signature="verifyContentInTable()[pri:0, instance:testcases.MyAccountTest@7d286fb6]" started-at="2021-10-29T19:25:33 IST" name="verifyContentInTable" finished-at="2021-10-29T19:25:33 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentInTable -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.MyAccountTest@7d286fb6]" started-at="2021-10-29T19:25:33 IST" name="closure" finished-at="2021-10-29T19:25:33 IST" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
       </class> <!-- testcases.MyAccountTest -->
       <class name="testcases.LoginTest">
-        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.LoginTest@68d279ec]" started-at="2021-10-26T23:31:13 IST" name="getDriverInstance" finished-at="2021-10-26T23:31:17 IST" duration-ms="4863" status="PASS">
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.LoginTest@48793bef]" started-at="2021-10-29T19:25:13 IST" name="getDriverInstance" finished-at="2021-10-29T19:25:16 IST" duration-ms="3821" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriverInstance -->
-        <test-method signature="login()[pri:0, instance:testcases.LoginTest@68d279ec]" started-at="2021-10-26T23:31:17 IST" name="login" finished-at="2021-10-26T23:31:24 IST" duration-ms="6968" status="PASS">
+        <test-method signature="login()[pri:0, instance:testcases.LoginTest@48793bef]" started-at="2021-10-29T19:25:16 IST" name="login" finished-at="2021-10-29T19:25:20 IST" duration-ms="3568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.LoginTest@68d279ec]" started-at="2021-10-26T23:31:24 IST" name="closure" finished-at="2021-10-26T23:31:24 IST" duration-ms="108" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.LoginTest@48793bef]" started-at="2021-10-29T19:25:20 IST" name="closure" finished-at="2021-10-29T19:25:20 IST" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
       </class> <!-- testcases.LoginTest -->
       <class name="testcases.RegistrationTest">
-        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.RegistrationTest@6c0d7c83]" started-at="2021-10-26T23:31:54 IST" name="getDriverInstance" finished-at="2021-10-26T23:31:57 IST" duration-ms="2084" status="PASS">
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.RegistrationTest@7b8b43c7]" started-at="2021-10-29T19:25:49 IST" name="getDriverInstance" finished-at="2021-10-29T19:25:51 IST" duration-ms="2138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriverInstance -->
-        <test-method signature="doUserRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RegistrationTest@6c0d7c83]" started-at="2021-10-26T23:31:57 IST" name="doUserRegistration" data-provider="data" finished-at="2021-10-26T23:32:17 IST" duration-ms="20659" status="FAIL">
+        <test-method signature="doUserRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RegistrationTest@7b8b43c7]" started-at="2021-10-29T19:25:51 IST" name="doUserRegistration" data-provider="data" finished-at="2021-10-29T19:26:11 IST" duration-ms="19488" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -106,8 +118,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-MFJ8Q0NV', ip: '192.168.0.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\Anuj\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7d14cc4cc674d258af6053bbf4c55a74
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\Anuj\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57985}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b1dc54a3b07ea0f0acd1ec9f0fc71e96
 *** Element info: {Using=xpath, value=//h1[contains(text(),'Your Account Has Been Created!')]}]]>
             </message>
             <full-stacktrace>
@@ -117,8 +129,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-MFJ8Q0NV', ip: '192.168.0.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\Anuj\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7d14cc4cc674d258af6053bbf4c55a74
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\Anuj\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57985}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b1dc54a3b07ea0f0acd1ec9f0fc71e96
 *** Element info: {Using=xpath, value=//h1[contains(text(),'Your Account Has Been Created!')]}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -169,15 +181,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doUserRegistration -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.RegistrationTest@6c0d7c83]" started-at="2021-10-26T23:32:18 IST" name="closure" finished-at="2021-10-26T23:32:18 IST" duration-ms="119" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.RegistrationTest@7b8b43c7]" started-at="2021-10-29T19:26:11 IST" name="closure" finished-at="2021-10-29T19:26:11 IST" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
-        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.RegistrationTest@6c0d7c83]" started-at="2021-10-26T23:32:18 IST" name="getDriverInstance" finished-at="2021-10-26T23:32:21 IST" duration-ms="3140" status="PASS">
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.RegistrationTest@7b8b43c7]" started-at="2021-10-29T19:26:11 IST" name="getDriverInstance" finished-at="2021-10-29T19:26:13 IST" duration-ms="2046" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriverInstance -->
-        <test-method signature="doUserRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RegistrationTest@6c0d7c83]" started-at="2021-10-26T23:32:21 IST" name="doUserRegistration" data-provider="data" finished-at="2021-10-26T23:32:41 IST" duration-ms="19783" status="FAIL">
+        <test-method signature="doUserRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RegistrationTest@7b8b43c7]" started-at="2021-10-29T19:26:13 IST" name="doUserRegistration" data-provider="data" finished-at="2021-10-29T19:26:33 IST" duration-ms="20154" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -218,8 +230,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-MFJ8Q0NV', ip: '192.168.0.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\Anuj\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63168}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 719f62bb1343518210799a2ecd28032e
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\Anuj\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 16e1684b162f58a4489d14af2d7b345c
 *** Element info: {Using=xpath, value=//h1[contains(text(),'Your Account Has Been Created!')]}]]>
             </message>
             <full-stacktrace>
@@ -229,8 +241,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-MFJ8Q0NV', ip: '192.168.0.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\Anuj\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63168}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 719f62bb1343518210799a2ecd28032e
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\Anuj\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 16e1684b162f58a4489d14af2d7b345c
 *** Element info: {Using=xpath, value=//h1[contains(text(),'Your Account Has Been Created!')]}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -281,11 +293,49 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doUserRegistration -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.RegistrationTest@6c0d7c83]" started-at="2021-10-26T23:32:41 IST" name="closure" finished-at="2021-10-26T23:32:41 IST" duration-ms="108" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.RegistrationTest@7b8b43c7]" started-at="2021-10-29T19:26:34 IST" name="closure" finished-at="2021-10-29T19:26:34 IST" duration-ms="79" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
       </class> <!-- testcases.RegistrationTest -->
+      <class name="testcases.WishListTest">
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.WishListTest@7aaca91a]" started-at="2021-10-29T19:26:34 IST" name="getDriverInstance" finished-at="2021-10-29T19:26:40 IST" duration-ms="6551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriverInstance -->
+        <test-method signature="verifyUserIsOnWishList()[pri:0, instance:testcases.WishListTest@7aaca91a]" started-at="2021-10-29T19:26:40 IST" name="verifyUserIsOnWishList" finished-at="2021-10-29T19:26:41 IST" duration-ms="585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsOnWishList -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.WishListTest@7aaca91a]" started-at="2021-10-29T19:26:41 IST" name="closure" finished-at="2021-10-29T19:26:41 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.WishListTest@7aaca91a]" started-at="2021-10-29T19:26:41 IST" name="getDriverInstance" finished-at="2021-10-29T19:26:47 IST" duration-ms="5864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriverInstance -->
+        <test-method signature="ClickOnContinue()[pri:0, instance:testcases.WishListTest@7aaca91a]" started-at="2021-10-29T19:26:47 IST" name="ClickOnContinue" finished-at="2021-10-29T19:26:48 IST" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnContinue -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.WishListTest@7aaca91a]" started-at="2021-10-29T19:26:48 IST" name="closure" finished-at="2021-10-29T19:26:48 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="getDriverInstance()[pri:0, instance:testcases.WishListTest@7aaca91a]" started-at="2021-10-29T19:26:48 IST" name="getDriverInstance" finished-at="2021-10-29T19:26:54 IST" duration-ms="5831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriverInstance -->
+        <test-method signature="printWishListTable()[pri:0, instance:testcases.WishListTest@7aaca91a]" started-at="2021-10-29T19:26:54 IST" name="printWishListTable" finished-at="2021-10-29T19:26:55 IST" depends-on-methods="testcases.WishListTest.verifyUserIsOnWishList" duration-ms="1233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printWishListTable -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:testcases.WishListTest@7aaca91a]" started-at="2021-10-29T19:26:55 IST" name="closure" finished-at="2021-10-29T19:26:55 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- testcases.WishListTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

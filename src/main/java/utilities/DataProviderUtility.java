@@ -3,11 +3,14 @@ package utilities;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.util.NumberToTextConverter;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.w3c.dom.ls.LSException;
 
 public class DataProviderUtility {
 
@@ -27,7 +30,7 @@ public class DataProviderUtility {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		XSSFSheet sheet = workbook.getSheet("userRegistration");
+		XSSFSheet sheet = workbook.getSheet(requiredSheetName);
 		int noofrows = sheet.getPhysicalNumberOfRows();
 		int noofcols = sheet.getRow(0).getPhysicalNumberOfCells();
 		Object[][] object = new Object[noofrows - 1][noofcols];
@@ -48,4 +51,5 @@ public class DataProviderUtility {
 		return object;
 
 	}
+	
 }

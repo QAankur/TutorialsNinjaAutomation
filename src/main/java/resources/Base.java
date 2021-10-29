@@ -55,19 +55,7 @@ public class Base {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 	}
-
-	public Properties getPropertiesObject() {
-		setUpProperties();
-		return prop;
-
-	}
-
-	public WebDriver getDriverObject() {
-		setUpDriver();
-		return driver;
-
-	}
-
+	
 	public ExtentReports getExtentReport() {
 		String timestamp = new SimpleDateFormat("yyyy_MM_dd__hh_mm_ss").format(new Date());
 		String path = System.getProperty("user.dir") + "\\reports\\extentReport" +timestamp + ".html";
@@ -81,6 +69,20 @@ public class Base {
 		extent.setSystemInfo("Automation Script Developer", "Ankur Mishra");
 		return extent;
 	}
+
+	public Properties getPropertiesObject() {
+		setUpProperties();
+		return prop;
+
+	}
+
+	public WebDriver getDriverObject() {
+		setUpDriver();
+		return driver;
+
+	}
+
+	
 	/*
 	 * public WebDriver getDriver() { return driver;
 	 * 

@@ -1,5 +1,9 @@
 package pageObjects;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -17,15 +21,19 @@ public class MyAccount {
 		PageFactory.initElements(driver, this);
 	}
 	
-	
 	@FindBy(xpath="//ul[@class='breadcrumb']//child::li[2]/a[text()='Account']")
 	private WebElement accountElement;
 	
 	@FindBy(xpath="//a[normalize-space()='Desktops']")
 	private WebElement desktopButton;
 	
+	@FindBy(xpath="//a[contains(text(),'Wish List')]")
+	private WebElement wishListFButton;
 	
-	
+	public WebElement getWishListFButton() {
+		return wishListFButton;
+	}
+
 	public WebElement getAccountElement()
 	{
 		return accountElement;
@@ -53,4 +61,34 @@ public class MyAccount {
 		return new Desktops(driver);
 	}
 	
+	public Boolean verifyValueIsDisplayedInTable(String expectedValue)
+	{
+		List<WebElement> list=driver.findElements(By.xpath("//div[@class='list-group']/a"));
+		Iterator<WebElement> ele=list.iterator();
+		List<String> list1=new ArrayList<String>();
+		int i=0;
+		Boolean flag=false;
+		while(ele.hasNext())
+		{
+			if(ele.next().getText().equals(expectedValue))
+			{
+				i=1;
+				break;
+			}
+			
+		}
+		if(i==1)
+		{
+			flag=true;
+		}
+		
+		return flag;
+	}
+	
+	public MyWishList clickOnWishList()
+	{
+		wishListFButton.click();
+		
+		return new MyWishList(driver);
+	}
 }
