@@ -30,16 +30,13 @@ public class LoginTest extends Base {
 	Login loginPage;
 	MyAccount myAccount;
 	Logger log;
+
 	@BeforeMethod
 	public void getDriverInstance() {
 		driver = getDriverObject();
 		prop = getPropertiesObject();
 		yourStorePage = new YourStore(driver);
 		log = LogManager.getLogger(LoginTest.class.getName());
-	}
-
-	@Test
-	public void login() throws InterruptedException {
 
 		log.info("loaded url");
 		driver.get(prop.getProperty("url"));
@@ -49,6 +46,11 @@ public class LoginTest extends Base {
 		loginPage.getEmailField().sendKeys(prop.getProperty("username"));
 		loginPage.getPwdField().sendKeys(prop.getProperty("password"));
 		log.info("click on login");
+	}
+
+	@Test
+	public void login() throws InterruptedException {
+
 		myAccount = loginPage.clickOnLogin();
 		Assert.assertTrue(myAccount.verifyTitle(driver.getTitle()));
 		Assert.assertTrue(myAccount.getAccountElement().isDisplayed());
