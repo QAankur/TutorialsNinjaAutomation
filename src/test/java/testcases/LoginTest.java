@@ -40,7 +40,7 @@ public class LoginTest extends Base {
 
 		log.info("loaded url");
 		driver.get(prop.getProperty("url"));
-		log.info("Opening login popup");
+		log.info("Opening the login popup");
 		loginPage = yourStorePage.clickOnMyAccount().clickOnLogin();
 		log.info("Entering username and password");
 		loginPage.getEmailField().sendKeys(prop.getProperty("username"));
