@@ -17,7 +17,7 @@ import pageObjects.YourStore;
 import resources.Base;
 import utilities.DataProviderUtility;
 
-public class MyAccountTest extends Base{
+public class MyAccountTest extends Base {
 
 	public WebDriver driver;
 	public Properties prop;
@@ -26,17 +26,16 @@ public class MyAccountTest extends Base{
 	MyAccount myAccount;
 	MyWishList wishList;
 	Logger log;
-	
 
 	@BeforeMethod
 	public void getDriverInstance() {
 		driver = getDriverObject();
 		prop = getPropertiesObject();
-		yourStorePage=new YourStore(driver);
-		myAccount=new MyAccount(driver);
-		wishList=new MyWishList(driver);
-		log=LogManager.getLogger(LoginTest.class.getName());
-		
+		yourStorePage = new YourStore(driver);
+		myAccount = new MyAccount(driver);
+		wishList = new MyWishList(driver);
+		log = LogManager.getLogger(LoginTest.class.getName());
+
 		log.info("loaded url");
 		driver.get(prop.getProperty("url"));
 		log.info("Oepning login popup");
@@ -50,31 +49,27 @@ public class MyAccountTest extends Base{
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		
+
 	}
-	
+
 	@Test
-	public void clickDesktopOptions()
-	{
+	public void clickDesktopOptions() {
 		try {
 			myAccount.moveToDesktopAndSelectAllDesktop().verifyTitle(driver.getTitle());
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
 	}
-	
+
 	@Test()
-	public void verifyContentInTable()
-	{
-		String expectedValue=prop.getProperty("ExpectedValue");
+	public void verifyContentInTable() {
+		String expectedValue = prop.getProperty("ExpectedValue");
 		System.out.println("This is result " + myAccount.verifyValueIsDisplayedInTable(expectedValue));
 	}
-	
 
-	
 	@AfterMethod
 	public void closure() {
 		driver.close();
 	}
-	
+
 }
