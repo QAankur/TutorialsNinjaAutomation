@@ -2,5 +2,6 @@
 <h4 align="center">Tools used are :
 Java , Selenium and testng , apache poi and log4j API's are used in this framework</h4>
 <h4> 
-Page Objects, listeners, Screenshots on failure , Apache POI , retry analyzer , DataProviders , Extent reporting , logging  are implemented with total 10 test cases for now</h4>
-
+Page Objects, listeners, Screenshots on failure ,  Extent reporting , </h4>
+<h4>Apache POI , retry analyzer , DataProviders ,</h4>
+<h4>logging  are implemented with total 10 test cases for now</h4>
