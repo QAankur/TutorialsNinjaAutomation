@@ -3,14 +3,15 @@
 <suite name="Suite">
 	<listeners>
 		<listener class-name="listener.Listener"></listener>
+		<listener class-name="listener.MyTransformer" />
 	</listeners>
 	<test thread-count="5" name="Test">
 		<classes>
-		    <class name="testcases.LoginTest" />
+			<class name="testcases.LoginTest" />
 			<class name="testcases.MyAccountTest" />
 			<class name="testcases.YourStoreTest" />
-			<class name="testcases.RegistrationTest" />
 			<class name="testcases.WishListTest" />
+			<class name="testcases.RegistrationTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -3,6 +3,7 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="listener.Listener"/>
+    <listener class-name="listener.MyTransformer"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
@@ -10,7 +11,7 @@
         <methods>
           <include name="getDriverInstance"/>
           <include name="closure"/>
-          <include name="doUserRegistration" invocation-numbers="0 1"/>
+          <include name="doUserRegistration" invocation-numbers="0 0 0 0 1 1 1 1"/>
         </methods>
       </class> <!-- testcases.RegistrationTest -->
     </classes>
