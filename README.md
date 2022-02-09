@@ -4,4 +4,4 @@ Java , Selenium and testng , apache poi and log4j API's are used in this framewo
 <h4 align="center"> 
 Page Objects, listeners, Screenshots on failure ,  Extent reporting , </h4>
 <h4 align="center">Apache POI , retry analyzer , DataProviders , parallel execution </h4>
-<h4 align="center">logging  are implemented with total 10 test cases for now</h4>
+<h4 align="center">logging  are implemented </h4>
