@@ -18,7 +18,7 @@ public class Login {
 	private WebElement emailField;
 	
 	@FindBy(xpath="//input[@id='input-password']")
-	private WebElement pwdField;
+	private WebElement pwdFieldThisIsRemoteChange;
 	
 	@FindBy(xpath="//input[@value='Login']")
 	private WebElement loginBtnTypeloginbuttonAndRemain;
