@@ -21,7 +21,7 @@ public class Login {
 	private WebElement pwdField;
 	
 	@FindBy(xpath="//input[@value='Login']")
-	private WebElement loginBtn;
+	private WebElement loginBtnTypeloginbuttonAndRemain;
 	
 	public WebElement getEmailField()
 	{
