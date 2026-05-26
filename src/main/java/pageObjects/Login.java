@@ -18,7 +18,7 @@ public class Login {
 	private WebElement emailFieldMyEmailChanges;
 	
 	@FindBy(xpath="//input[@id='input-password']")
-	private WebElement newInputPassword;
+	private WebElement pwdFieldAndThisismyChange;
 	
 	@FindBy(xpath="//input[@value='Login']")
 	private WebElement loginBtnTypeloginbuttonAndRemain;
