@@ -25,7 +25,7 @@ public class Login {
 	
 	public WebElement getEmailField()
 	{
-		return  emailField;
+		return  newemailField;
 	}
 	public WebElement getPwdField()
 	{
