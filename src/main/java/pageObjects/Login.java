@@ -15,7 +15,7 @@ public class Login {
 	}
 	
 	@FindBy(xpath="//input[@id='input-email']")
-	private WebElement emailFieldMyEmailChanges;
+	private WebElement NeedToRevertChangeChanges;
 	
 	@FindBy(xpath="//input[@id='input-password']")
 	private WebElement pwdFieldAndThisismyChange;
