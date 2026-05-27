@@ -37,6 +37,7 @@ public class MyAccountTest extends Base {
 		log = LogManager.getLogger(LoginTest.class.getName());
 
 		log.info("loaded url");
+		log.info("NewBranchChanges");
 		driver.get(prop.getProperty("url"));
 		log.info("Oepning login popup");
 		loginPage = yourStorePage.clickOnMyAccount().clickOnLogin();
